@@ -1,0 +1,110 @@
+[
+  {
+    "id": "search-to-results",
+    "instruction": "Search for a roundtrip flight from Seattle to New York and view the available flight options.",
+    "difficulty": "easy",
+    "max_steps": 8,
+    "start": {
+      "step": "search",
+      "origin": "SEA",
+      "destination": "JFK",
+      "departDate": "Wed, Feb 18",
+      "returnDate": "Fri, Feb 20",
+      "passengers": 1,
+      "tripType": "roundtrip"
+    },
+    "goal": {
+      "step": { "equals": "results" }
+    }
+  },
+  {
+    "id": "select-flight-to-cart",
+    "instruction": "Select any available flight and choose a fare to proceed to the checkout cart.",
+    "difficulty": "medium",
+    "max_steps": 12,
+    "start": {
+      "step": "results",
+      "origin": "SEA",
+      "destination": "JFK",
+      "departDate": "Wed, Feb 18",
+      "returnDate": "Fri, Feb 20",
+      "passengers": 1,
+      "tripType": "roundtrip",
+      "selectedOutboundFlight": null,
+      "selectedOutboundFare": null
+    },
+    "goal": {
+      "step": { "equals": "cart" }
+    }
+  },
+  {
+    "id": "cart-to-traveler",
+    "instruction": "You have selected a flight. Proceed through checkout to the traveler information form.",
+    "difficulty": "medium",
+    "max_steps": 8,
+    "start": {
+      "step": "cart",
+      "origin": "SEA",
+      "destination": "JFK",
+      "departDate": "Wed, Feb 18",
+      "returnDate": "Fri, Feb 20",
+      "passengers": 1,
+      "tripType": "roundtrip",
+      "selectedOutboundFlight": {
+        "stops": "Nonstop",
+        "duration": "5h 5m",
+        "departTime": "6:00am",
+        "departCode": "SEA",
+        "arriveTime": "2:05pm",
+        "arriveCode": "JFK",
+        "flightNumber": "1054",
+        "price": 79,
+        "bluePrice": 114,
+        "blueExtraPrice": 139,
+        "evenMorePrice": 188
+      },
+      "selectedOutboundFare": "Blue Basic",
+      "farePrice": 79,
+      "taxesAndFees": 12,
+      "cartTotal": 91
+    },
+    "goal": {
+      "step": { "equals": "traveler" }
+    }
+  },
+  {
+    "id": "traveler-to-seats",
+    "instruction": "Fill in the traveler information form with any valid details and proceed to seat selection.",
+    "difficulty": "hard",
+    "max_steps": 20,
+    "start": {
+      "step": "traveler",
+      "origin": "SEA",
+      "destination": "JFK",
+      "departDate": "Wed, Feb 18",
+      "returnDate": "Fri, Feb 20",
+      "passengers": 1,
+      "tripType": "roundtrip",
+      "selectedOutboundFlight": {
+        "stops": "Nonstop",
+        "duration": "5h 5m",
+        "departTime": "6:00am",
+        "departCode": "SEA",
+        "arriveTime": "2:05pm",
+        "arriveCode": "JFK",
+        "flightNumber": "1054",
+        "price": 79,
+        "bluePrice": 114,
+        "blueExtraPrice": 139,
+        "evenMorePrice": 188
+      },
+      "selectedOutboundFare": "Blue Basic",
+      "farePrice": 79,
+      "taxesAndFees": 12,
+      "cartTotal": 91
+    },
+    "goal": {
+      "step": { "equals": "seats" }
+    }
+  }
+]

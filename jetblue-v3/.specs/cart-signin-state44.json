@@ -1,0 +1,1103 @@
+{
+  "tag": "body",
+  "w": "1461px",
+  "h": "799px",
+  "children": [
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "prunable": true,
+      "w": "1461px",
+      "h": "0px",
+      "children": [
+        {
+          "tag": "div",
+          "w": "1461px",
+          "h": "0px"
+        }
+      ]
+    },
+    {
+      "tag": "jb-app",
+      "sel": "jb-app",
+      "display": "inline",
+      "children": [
+        {
+          "tag": "div",
+          "sel": "div:nth-of-type(1)",
+          "w": "1461px",
+          "h": "0px"
+        },
+        {
+          "tag": "jb-uk-covid-alert",
+          "sel": "jb-uk-covid-alert",
+          "w": "634.094px",
+          "h": "0px"
+        },
+        {
+          "tag": "div",
+          "sel": "div#app-container-div",
+          "w": "1461px",
+          "h": "634px",
+          "children": [
+            {
+              "tag": "jb-checkout",
+              "sel": "jb-checkout",
+              "prunable": true,
+              "display": "inline",
+              "children": [
+                {
+                  "tag": "div",
+                  "sel": "div",
+                  "w": "1461px",
+                  "h": "590px",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "sel": "div",
+                      "w": "1024px",
+                      "h": "590px",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "sel": "div",
+                          "prunable": true,
+                          "w": "936px",
+                          "h": "590px",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "sel": "div:nth-of-type(1)",
+                              "display": "grid",
+                              "w": "936px",
+                              "h": "590px",
+                              "gap": "24px",
+                              "grid": "56px 56px 56px 56px 56px 56px 56px 56px 56px 56px 56px 56px",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "sel": "div:nth-of-type(1)",
+                                  "prunable": true,
+                                  "w": "616px",
+                                  "h": "534px",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "sel": "div",
+                                      "w": "616px",
+                                      "h": "534px",
+                                      "repeated": {
+                                        "count": 6,
+                                        "template": {
+                                          "tag": "div",
+                                          "sel": "div:nth-of-type(1)",
+                                          "prunable": true,
+                                          "w": "616px",
+                                          "h": "198px",
+                                          "children": [
+                                            {
+                                              "tag": "jb-sign-in",
+                                              "sel": "jb-sign-in",
+                                              "prunable": true,
+                                              "display": "inline",
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "sel": "div",
+                                                  "display": "flex",
+                                                  "w": "616px",
+                                                  "h": "198px",
+                                                  "gap": "normal 0px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "sel": "div:nth-of-type(2)",
+                                                      "w": "616px",
+                                                      "h": "198px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "sel": "div:nth-of-type(1)",
+                                                          "w": "552px",
+                                                          "h": "78px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "p",
+                                                              "sel": "p:nth-of-type(1)",
+                                                              "text": "Sign in",
+                                                              "display": "inline-block",
+                                                              "w": "75.5781px",
+                                                              "h": "28px"
+                                                            },
+                                                            {
+                                                              "tag": "p",
+                                                              "sel": "p:nth-of-type(2)",
+                                                              "text": "Access your JetBlue Travel Credits. TrueBlue members save time, earn points, and collect tiles towar",
+                                                              "w": "552px",
+                                                              "h": "42px"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "div",
+                                                          "sel": "div:nth-of-type(2)",
+                                                          "display": "flex",
+                                                          "w": "414px",
+                                                          "h": "56px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "button",
+                                                              "sel": "button#auto-checkout-sign-in-button",
+                                                              "display": "flex",
+                                                              "w": "199.547px",
+                                                              "h": "56px",
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "sel": "span",
+                                                                  "text": "Sign in",
+                                                                  "w": "51.9531px",
+                                                                  "h": "24px"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "button",
+                                                              "sel": "button#auto-checkout-continue-as-guest-button",
+                                                              "display": "flex",
+                                                              "w": "198.453px",
+                                                              "h": "56px",
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "sel": "span",
+                                                                  "w": "141.203px",
+                                                                  "h": "24px",
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "sel": "span",
+                                                                      "text": "Continue as guest",
+                                                                      "display": "inline"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "children": [
+                                        {
+                                          "tag": "div",
+                                          "sel": "div:nth-of-type(1)",
+                                          "prunable": true,
+                                          "w": "616px",
+                                          "h": "198px",
+                                          "children": [
+                                            {
+                                              "tag": "jb-sign-in",
+                                              "sel": "jb-sign-in",
+                                              "prunable": true,
+                                              "display": "inline",
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "sel": "div",
+                                                  "display": "flex",
+                                                  "w": "616px",
+                                                  "h": "198px",
+                                                  "gap": "normal 0px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "sel": "div:nth-of-type(2)",
+                                                      "w": "616px",
+                                                      "h": "198px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "sel": "div:nth-of-type(1)",
+                                                          "w": "552px",
+                                                          "h": "78px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "p",
+                                                              "sel": "p:nth-of-type(1)",
+                                                              "text": "Sign in",
+                                                              "display": "inline-block",
+                                                              "w": "75.5781px",
+                                                              "h": "28px"
+                                                            },
+                                                            {
+                                                              "tag": "p",
+                                                              "sel": "p:nth-of-type(2)",
+                                                              "text": "Access your JetBlue Travel Credits. TrueBlue members save time, earn points, and collect tiles towar",
+                                                              "w": "552px",
+                                                              "h": "42px"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "div",
+                                                          "sel": "div:nth-of-type(2)",
+                                                          "display": "flex",
+                                                          "w": "414px",
+                                                          "h": "56px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "button",
+                                                              "sel": "button#auto-checkout-sign-in-button",
+                                                              "display": "flex",
+                                                              "w": "199.547px",
+                                                              "h": "56px",
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "sel": "span",
+                                                                  "text": "Sign in",
+                                                                  "w": "51.9531px",
+                                                                  "h": "24px"
+                                                                }
+                                                              ]
+                                                            },
+                                                            {
+                                                              "tag": "button",
+                                                              "sel": "button#auto-checkout-continue-as-guest-button",
+                                                              "display": "flex",
+                                                              "w": "198.453px",
+                                                              "h": "56px",
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "sel": "span",
+                                                                  "w": "141.203px",
+                                                                  "h": "24px",
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "sel": "span",
+                                                                      "text": "Continue as guest",
+                                                                      "display": "inline"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "div",
+                                          "sel": "div#auto-checkout-payment-container",
+                                          "prunable": true,
+                                          "w": "616px",
+                                          "h": "96px",
+                                          "children": [
+                                            {
+                                              "tag": "mat-card",
+                                              "sel": "mat-card",
+                                              "display": "flex",
+                                              "flexDir": "column",
+                                              "w": "616px",
+                                              "h": "96px",
+                                              "children": [
+                                                {
+                                                  "tag": "h2",
+                                                  "sel": "h2",
+                                                  "text": "3. Review & Pay",
+                                                  "w": "616px",
+                                                  "h": "100px"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "sel": "div:nth-of-type(2)",
+                                  "w": "296px",
+                                  "h": "534px",
+                                  "children": [
+                                    {
+                                      "tag": "div",
+                                      "sel": "div",
+                                      "w": "296px",
+                                      "h": "449.188px",
+                                      "children": [
+                                        {
+                                          "tag": "cb-price-summary",
+                                          "sel": "cb-price-summary",
+                                          "prunable": true,
+                                          "display": "inline",
+                                          "children": [
+                                            {
+                                              "tag": "section",
+                                              "sel": "section",
+                                              "w": "294px",
+                                              "h": "447.188px",
+                                              "children": [
+                                                {
+                                                  "tag": "header",
+                                                  "sel": "header",
+                                                  "w": "246px",
+                                                  "h": "46.3906px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "h4",
+                                                      "sel": "h4#price-summary-heading",
+                                                      "text": "Price Summary",
+                                                      "w": "246px",
+                                                      "h": "26.3906px"
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "sel": "div",
+                                                      "w": "246px",
+                                                      "h": "4px"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "article",
+                                                  "sel": "article",
+                                                  "display": "flex",
+                                                  "w": "246px",
+                                                  "h": "48px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "h5",
+                                                      "sel": "h5",
+                                                      "text": "Flights",
+                                                      "w": "53.8906px",
+                                                      "h": "40px"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "section",
+                                                  "sel": "section:nth-of-type(1)",
+                                                  "w": "246px",
+                                                  "h": "84px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "sel": "div:nth-of-type(1)",
+                                                      "text": "PBI-JFK, feb 18 6:00am",
+                                                      "w": "246px",
+                                                      "h": "12px"
+                                                    },
+                                                    {
+                                                      "tag": "div",
+                                                      "sel": "div:nth-of-type(2)",
+                                                      "text": "JFK-PBI, feb 20 8:15am",
+                                                      "w": "246px",
+                                                      "h": "12px"
+                                                    },
+                                                    {
+                                                      "tag": "article",
+                                                      "sel": "article",
+                                                      "display": "flex",
+                                                      "w": "246px",
+                                                      "h": "44px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "section",
+                                                          "sel": "section",
+                                                          "display": "flex",
+                                                          "w": "181.562px",
+                                                          "h": "32px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "sel": "span:nth-of-type(1)",
+                                                              "text": "1",
+                                                              "w": "5.78125px",
+                                                              "h": "32px"
+                                                            },
+                                                            {
+                                                              "tag": "span",
+                                                              "sel": "span:nth-of-type(2)",
+                                                              "text": "Round-trip ticket (1 Adult)",
+                                                              "w": "159.781px",
+                                                              "h": "32px"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "aside",
+                                                          "sel": "aside",
+                                                          "text": "$386.23",
+                                                          "w": "48.4375px",
+                                                          "h": "32px"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "button",
+                                                  "sel": "button",
+                                                  "text": "Fare restrictions",
+                                                  "display": "inline-block",
+                                                  "w": "99.625px",
+                                                  "h": "24px"
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "sel": "div:nth-of-type(1)",
+                                                  "w": "246px",
+                                                  "h": "18px"
+                                                },
+                                                {
+                                                  "tag": "section",
+                                                  "sel": "section:nth-of-type(2)",
+                                                  "w": "246px",
+                                                  "h": "16px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "button",
+                                                      "sel": "button",
+                                                      "text": "Taxes & Fees",
+                                                      "display": "inline-block",
+                                                      "w": "78.8594px",
+                                                      "h": "16px"
+                                                    },
+                                                    {
+                                                      "tag": "aside",
+                                                      "sel": "aside",
+                                                      "text": "$59.77",
+                                                      "w": "40.3594px",
+                                                      "h": "16px"
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "sel": "div:nth-of-type(2)",
+                                                  "w": "246px",
+                                                  "h": "18px"
+                                                },
+                                                {
+                                                  "tag": "section",
+                                                  "sel": "section:nth-of-type(3)",
+                                                  "display": "flex",
+                                                  "w": "246px",
+                                                  "h": "48.7969px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "article",
+                                                      "sel": "article",
+                                                      "w": "246px",
+                                                      "h": "36px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "header",
+                                                          "sel": "header",
+                                                          "w": "246px",
+                                                          "h": "0px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "span",
+                                                              "sel": "span",
+                                                              "text": "Total:",
+                                                              "w": "41.6875px",
+                                                              "h": "20px"
+                                                            }
+                                                          ]
+                                                        },
+                                                        {
+                                                          "tag": "main",
+                                                          "sel": "main",
+                                                          "w": "246px",
+                                                          "h": "36px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "strong",
+                                                              "sel": "strong",
+                                                              "text": "$446.00",
+                                                              "display": "inline"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "nav",
+                                                  "sel": "nav",
+                                                  "display": "flex",
+                                                  "w": "246px",
+                                                  "h": "24px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "aside",
+                                                      "sel": "aside",
+                                                      "w": "150.812px",
+                                                      "h": "24px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "button",
+                                                          "sel": "button",
+                                                          "text": "View in another currency",
+                                                          "w": "150.812px",
+                                                          "h": "16px"
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                },
+                                                {
+                                                  "tag": "div",
+                                                  "sel": "div:nth-of-type(3)",
+                                                  "w": "246px",
+                                                  "h": "2px"
+                                                },
+                                                {
+                                                  "tag": "section",
+                                                  "sel": "section:nth-of-type(4)",
+                                                  "display": "flex",
+                                                  "w": "246px",
+                                                  "h": "0px"
+                                                },
+                                                {
+                                                  "tag": "footer",
+                                                  "sel": "footer",
+                                                  "w": "246px",
+                                                  "h": "0px"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "jb-footer",
+          "sel": "jb-footer",
+          "prunable": true,
+          "w": "1461px",
+          "h": "101px",
+          "children": [
+            {
+              "tag": "div",
+              "sel": "div#footer-div-element",
+              "w": "1461px",
+              "h": "101px",
+              "children": [
+                {
+                  "tag": "jb-help-and-faq",
+                  "sel": "jb-help-and-faq",
+                  "display": "inline",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "sel": "div",
+                      "prunable": true,
+                      "w": "936px",
+                      "h": "100px",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "sel": "div",
+                          "w": "936px",
+                          "h": "100px",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "sel": "div:nth-of-type(1)",
+                              "display": "flex",
+                              "w": "936px",
+                              "h": "32px",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "sel": "div:nth-of-type(1)",
+                                  "text": "Popular Help Topics",
+                                  "w": "173.453px",
+                                  "h": "24px"
+                                },
+                                {
+                                  "tag": "div",
+                                  "sel": "div:nth-of-type(2)",
+                                  "display": "flex",
+                                  "w": "343.25px",
+                                  "h": "32px",
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "sel": "ul",
+                                      "w": "258.234px",
+                                      "h": "24px",
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "sel": "li:nth-of-type(1)",
+                                          "w": "111.891px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "sel": "a",
+                                              "text": "Privacy Policy",
+                                              "display": "inline"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "sel": "li:nth-of-type(2)",
+                                          "w": "134.344px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "sel": "a",
+                                              "text": "Submit feedback",
+                                              "display": "inline"
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    },
+                                    {
+                                      "tag": "div",
+                                      "sel": "div",
+                                      "display": "flex",
+                                      "w": "85.0156px",
+                                      "h": "20px",
+                                      "children": [
+                                        {
+                                          "tag": "jb-icon",
+                                          "sel": "jb-icon",
+                                          "w": "14px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "svg",
+                                              "sel": "svg",
+                                              "display": "inline",
+                                              "w": "14px",
+                                              "h": "14px",
+                                              "children": [
+                                                {
+                                                  "tag": "path",
+                                                  "sel": "path",
+                                                  "display": "inline"
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "jb-form-field-container",
+                                          "sel": "jb-form-field-container",
+                                          "prunable": true,
+                                          "w": "67.0156px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "jb-select",
+                                              "sel": "jb-select",
+                                              "prunable": true,
+                                              "display": "flex",
+                                              "flexDir": "column",
+                                              "w": "67.0156px",
+                                              "h": "20px",
+                                              "children": [
+                                                {
+                                                  "tag": "div",
+                                                  "sel": "div",
+                                                  "w": "67.0156px",
+                                                  "h": "20px",
+                                                  "children": [
+                                                    {
+                                                      "tag": "div",
+                                                      "sel": "div",
+                                                      "w": "67.0156px",
+                                                      "h": "0px"
+                                                    },
+                                                    {
+                                                      "tag": "button",
+                                                      "sel": "button",
+                                                      "display": "flex",
+                                                      "w": "67.0156px",
+                                                      "h": "20px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "div",
+                                                          "sel": "div",
+                                                          "text": "English",
+                                                          "w": "51.0156px",
+                                                          "h": "20px"
+                                                        },
+                                                        {
+                                                          "tag": "jb-expandable-indicator",
+                                                          "sel": "jb-expandable-indicator",
+                                                          "prunable": true,
+                                                          "w": "8px",
+                                                          "h": "8px",
+                                                          "children": [
+                                                            {
+                                                              "tag": "div",
+                                                              "sel": "div",
+                                                              "display": "flex",
+                                                              "w": "8px",
+                                                              "h": "8px",
+                                                              "children": [
+                                                                {
+                                                                  "tag": "span",
+                                                                  "sel": "span",
+                                                                  "w": "8px",
+                                                                  "h": "5px",
+                                                                  "children": [
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "sel": "span:nth-of-type(1)",
+                                                                      "w": "5px",
+                                                                      "h": "1.59375px"
+                                                                    },
+                                                                    {
+                                                                      "tag": "span",
+                                                                      "sel": "span:nth-of-type(2)",
+                                                                      "w": "5px",
+                                                                      "h": "1.59375px"
+                                                                    }
+                                                                  ]
+                                                                }
+                                                              ]
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+                              "sel": "div:nth-of-type(2)",
+                              "display": "flex",
+                              "w": "936px",
+                              "h": "20px",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "sel": "div:nth-of-type(1)",
+                                  "w": "415.484px",
+                                  "h": "20px",
+                                  "children": [
+                                    {
+                                      "tag": "ul",
+                                      "sel": "ul",
+                                      "w": "415.484px",
+                                      "h": "0px",
+                                      "children": [
+                                        {
+                                          "tag": "li",
+                                          "sel": "li:nth-of-type(1)",
+                                          "w": "76.0781px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "sel": "a",
+                                              "text": "Our Fares",
+                                              "display": "inline"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "sel": "li:nth-of-type(2)",
+                                          "w": "74.2969px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "sel": "a",
+                                              "text": "Bag Info",
+                                              "display": "inline"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "sel": "li:nth-of-type(3)",
+                                          "w": "104.906px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "sel": "a",
+                                              "text": "Travel Credit",
+                                              "display": "inline"
+                                            }
+                                          ]
+                                        },
+                                        {
+                                          "tag": "li",
+                                          "sel": "li:nth-of-type(4)",
+                                          "w": "152.203px",
+                                          "h": "20px",
+                                          "children": [
+                                            {
+                                              "tag": "a",
+                                              "sel": "a",
+                                              "text": "See all help topics",
+                                              "display": "inline",
+                                              "children": [
+                                                {
+                                                  "tag": "jb-icon",
+                                                  "sel": "jb-icon",
+                                                  "display": "inline",
+                                                  "children": [
+                                                    {
+                                                      "tag": "svg",
+                                                      "sel": "svg",
+                                                      "prunable": true,
+                                                      "display": "inline",
+                                                      "w": "4px",
+                                                      "h": "8px",
+                                                      "children": [
+                                                        {
+                                                          "tag": "g",
+                                                          "sel": "g",
+                                                          "prunable": true,
+                                                          "display": "inline",
+                                                          "children": [
+                                                            {
+                                                              "tag": "polygon",
+                                                              "sel": "polygon",
+                                                              "display": "inline"
+                                                            }
+                                                          ]
+                                                        }
+                                                      ]
+                                                    }
+                                                  ]
+                                                }
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  ]
+                                },
+                                {
+                                  "tag": "div",
+                                  "sel": "div:nth-of-type(2)",
+                                  "text": "©2026. All rights reserved",
+                                  "w": "157.344px",
+                                  "h": "20px"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tag": "div",
+      "sel": "div#consent_blackbar",
+      "w": "1461px",
+      "h": "0px"
+    },
+    {
+      "tag": "div",
+      "sel": "div#ZN_9NrVZpkFcamQFbo",
+      "w": "1461px",
+      "h": "0px"
+    },
+    {
+      "tag": "div",
+      "sel": "div#QSIFeedbackButton-target-container",
+      "w": "400px",
+      "h": "387px"
+    },
+    {
+      "tag": "img",
+      "display": "inline",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "display": "inline",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "w": "1px",
+      "h": "1px"
+    },
+    {
+      "tag": "img",
+      "w": "1px",
+      "h": "1px"
+    }
+  ]
+}

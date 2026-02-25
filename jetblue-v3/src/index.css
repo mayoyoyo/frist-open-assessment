@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* JetBlue custom font: jbklarheit */
+@font-face {
+  font-family: jbklarheit;
+  src: url('/fonts/jbklarheit-0.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 1 400;
+}
+
+@font-face {
+  font-family: jbklarheit;
+  src: url('/fonts/jbklarheit-1.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 500 600;
+}
+
+@font-face {
+  font-family: jbklarheit;
+  src: url('/fonts/jbklarheit-2.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 700 1000;
+}
+
+body {
+  margin: 0;
+  font-family: jbklarheit, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgba(0, 0, 0, 0);
+  color: #000;
+  line-height: 24px;
+  cursor: auto;
+}
+
+* {
+  box-sizing: border-box;
+  border-color: currentColor;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}

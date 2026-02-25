@@ -1,0 +1,76 @@
+# seatmap - DOM Structure Spec
+
+States: 88, 92
+
+## State 88 (1945 elements)
+
+```
+body (1944 children) [1461px×798px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  jb-app (1923 children) {inline} [auto×auto]
+    div [1461px×0px]
+    jb-uk-covid-alert [634.094px×0px]
+    div#app-container-div [P] (1920 children) [1461px×718px]
+      jb-seat-selection#app-container-div [P] (1919 children) {inline} [auto×auto]
+        div#app-container-div (1918 children) [1461px×718px]
+          cb-seat-map#app-container-div [P] (1917 children) {inline} [auto×auto]
+            div#app-container-div [P] (1916 children) {flex,col} [1461px×718px]
+              div#app-container-div [P] (1915 children) [1461px×718px]
+                cb-seat-map-section#app-container-div [P] (1914 children) {inline} [auto×auto]
+  div#consent_blackbar [1461px×0px]
+  div#ZN_9NrVZpkFcamQFbo [1461px×0px]
+  div#QSIFeedbackButton-target-container [400px×387px]
+  img {inline} [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  img {inline} [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  jb-dialog-box {inline} [auto×auto]
+```
+
+## State 92 (1715 elements)
+
+```
+body (1714 children) [1461px×798px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  div [P] (1 children) [1461px×0px]
+    div [1461px×0px]
+  jb-app (1693 children) {inline} [auto×auto]
+    div [1461px×0px]
+    jb-uk-covid-alert [634.094px×0px]
+    div#app-container-div [P] (1690 children) [1461px×718px]
+      jb-seat-selection#app-container-div [P] (1689 children) {inline} [auto×auto]
+        div#app-container-div (1688 children) [1461px×718px]
+          cb-seat-map#app-container-div [P] (1687 children) {inline} [auto×auto]
+            div#app-container-div [P] (1686 children) {flex,col} [1461px×718px]
+              div#app-container-div [P] (1685 children) [1461px×718px]
+                cb-seat-map-section#app-container-div [P] (1684 children) {inline} [auto×auto]
+  div#consent_blackbar [1461px×0px]
+  div#ZN_9NrVZpkFcamQFbo [1461px×0px]
+  div#QSIFeedbackButton-target-container [400px×387px]
+  img {inline} [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  img {inline} [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  img [1px×1px]
+  jb-dialog-box {inline} [auto×auto]
+```
+
