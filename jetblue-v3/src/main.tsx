@@ -184,56 +184,64 @@ export function navigateToStep(step: Step, extraState?: Partial<BookingState>) {
 // ─── Window APIs ────────────────────────────────────────────
 
 const annotations = [
-  { id: "ann-00", label: "vacation_cross_sell", category: "UI_TOGGLE", route: "home" },
-  { id: "ann-01", label: "flight_panel_departure", category: "UI_TOGGLE", route: "home" },
-  { id: "ann-02", label: "promo_terms", category: "OTHER", route: "home" },
-  { id: "ann-03", label: "bundle_price_select_home", category: "FARE_SELECT", route: "home" },
-  { id: "ann-04", label: "flight_filters", category: "FILTER", route: "home" },
-  { id: "ann-05", label: "flight_stops_nav", category: "NAVIGATION", route: "home" },
-  { id: "ann-06", label: "flight_duration_nav", category: "NAVIGATION", route: "home" },
-  { id: "ann-07", label: "flight_timeline_nav", category: "NAVIGATION", route: "home" },
-  { id: "ann-08", label: "filter_chip_clear", category: "BUTTON_ACTION", route: "home" },
-  { id: "ann-09", label: "flight_result_expand", category: "UI_TOGGLE", route: "flights-search-1" },
-  { id: "ann-10", label: "modify_search_origin", category: "NAVIGATION", route: "flights-search-1" },
-  { id: "ann-11", label: "airline_details", category: "NAVIGATION", route: "flights-search-1" },
-  { id: "ann-12", label: "hidden_form_submit", category: "NAVIGATION", route: "flights-search-1" },
-  { id: "ann-13", label: "nonstop_filter", category: "NAVIGATION", route: "flights-search-1" },
-  { id: "ann-14", label: "fare_card_select", category: "FARE_SELECT", route: "flights-search-1" },
-  { id: "ann-15", label: "fare_tile_select_1", category: "FARE_SELECT", route: "flights-search-1" },
-  { id: "ann-16", label: "bundle_price_select_results", category: "FARE_SELECT", route: "flights-search-1" },
-  { id: "ann-17", label: "fare_tile_select_2", category: "FARE_SELECT", route: "flights-search-1" },
-  { id: "ann-18", label: "next_traveler_details", category: "BUTTON_ACTION", route: "flights-search-1" },
-  { id: "ann-19", label: "continue_as_guest", category: "BUTTON_ACTION", route: "flights-search-1" },
-  { id: "ann-20", label: "first_name_input", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-21", label: "title_dropdown_open", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-22", label: "title_select_ms", category: "DROPDOWN_SELECT", route: "flights-search-1" },
-  { id: "ann-23", label: "email_input", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-24", label: "gender_dropdown_open", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-25", label: "gender_select_female", category: "DROPDOWN_SELECT", route: "flights-search-1" },
-  { id: "ann-26", label: "birth_month_dropdown_open", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-27", label: "birth_month_select_mar", category: "DROPDOWN_SELECT", route: "flights-search-1" },
-  { id: "ann-28", label: "birth_day_dropdown_open", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-29", label: "birth_day_select_2", category: "DROPDOWN_SELECT", route: "flights-search-1" },
-  { id: "ann-30", label: "birth_year_dropdown_open", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-31", label: "birth_year_select_1992", category: "DROPDOWN_SELECT", route: "flights-search-1" },
-  { id: "ann-32", label: "next_seats_extras", category: "BUTTON_ACTION", route: "flights-search-1" },
-  { id: "ann-33", label: "address_autocomplete_input", category: "FORM_INPUT", route: "flights-search-1" },
-  { id: "ann-34", label: "address_autocomplete_select", category: "DROPDOWN_SELECT", route: "flights-search-1" },
-  { id: "ann-35", label: "next_seats_extras_2", category: "BUTTON_ACTION", route: "flights-search-1" },
-  { id: "ann-36", label: "seat_select_1a", category: "SEAT_SELECT", route: "flights-search-1" },
-  { id: "ann-37", label: "next_flight_jfk_pbi", category: "BUTTON_ACTION", route: "flights-search-1" },
-  { id: "ann-38", label: "seat_select_2e_disabled", category: "SEAT_SELECT", route: "flights-search-1" },
-  { id: "ann-39", label: "next_select_extras", category: "BUTTON_ACTION", route: "flights-search-1" },
+  // Home page annotations
+  { id: "ann-00", label: "vacation_cross_sell", category: "UI_TOGGLE", route: "home", action: "click" },
+  { id: "ann-01", label: "flight_panel_departure", category: "UI_TOGGLE", route: "home", action: "click" },
+  { id: "ann-02", label: "promo_terms", category: "OTHER", route: "home", action: "click" },
+  { id: "ann-03", label: "bundle_price_select_home", category: "FARE_SELECT", route: "home", action: "click" },
+  { id: "ann-04", label: "flight_filters", category: "FILTER", route: "home", action: "click" },
+  { id: "ann-05", label: "flight_stops_nav", category: "NAVIGATION", route: "home", action: "click" },
+  { id: "ann-06", label: "flight_duration_nav", category: "NAVIGATION", route: "home", action: "click" },
+  { id: "ann-07", label: "flight_timeline_nav", category: "NAVIGATION", route: "home", action: "click" },
+  { id: "ann-08", label: "filter_chip_clear", category: "BUTTON_ACTION", route: "home", action: "click" },
+  { id: "search_flights", label: "search_flights_button", category: "BUTTON_ACTION", route: "home", action: "click" },
+  // Flight results annotations
+  { id: "ann-09", label: "flight_result_expand", category: "UI_TOGGLE", route: "flights-search-1", action: "click" },
+  { id: "ann-10", label: "modify_search_origin", category: "NAVIGATION", route: "flights-search-1", action: "click" },
+  { id: "ann-11", label: "airline_details", category: "NAVIGATION", route: "flights-search-1", action: "click" },
+  { id: "ann-12", label: "hidden_form_submit", category: "NAVIGATION", route: "flights-search-1", action: "click" },
+  { id: "ann-13", label: "nonstop_filter", category: "NAVIGATION", route: "flights-search-1", action: "click" },
+  { id: "ann-14", label: "fare_card_select", category: "FARE_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-15", label: "fare_tile_select_1", category: "FARE_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-16", label: "bundle_price_select_results", category: "FARE_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-17", label: "fare_tile_select_2", category: "FARE_SELECT", route: "flights-search-1", action: "click" },
+  // Checkout/Cart annotations
+  { id: "ann-18", label: "next_traveler_details", category: "BUTTON_ACTION", route: "flights-search-1", action: "click" },
+  { id: "ann-19", label: "continue_as_guest", category: "BUTTON_ACTION", route: "flights-search-1", action: "click" },
+  // Traveler form annotations
+  { id: "ann-20", label: "first_name_input", category: "FORM_INPUT", route: "flights-search-1", action: "type", metadata: { text: "Jane" } },
+  { id: "ann-21", label: "title_dropdown_open", category: "FORM_INPUT", route: "flights-search-1", action: "click" },
+  { id: "ann-22", label: "title_select_ms", category: "DROPDOWN_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-23", label: "email_input", category: "FORM_INPUT", route: "flights-search-1", action: "type", metadata: { text: "jane@example.com" } },
+  { id: "ann-24", label: "gender_dropdown_open", category: "FORM_INPUT", route: "flights-search-1", action: "click" },
+  { id: "ann-25", label: "gender_select_female", category: "DROPDOWN_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-26", label: "birth_month_dropdown_open", category: "FORM_INPUT", route: "flights-search-1", action: "click" },
+  { id: "ann-27", label: "birth_month_select_mar", category: "DROPDOWN_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-28", label: "birth_day_dropdown_open", category: "FORM_INPUT", route: "flights-search-1", action: "click" },
+  { id: "ann-29", label: "birth_day_select_2", category: "DROPDOWN_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-30", label: "birth_year_dropdown_open", category: "FORM_INPUT", route: "flights-search-1", action: "click" },
+  { id: "ann-31", label: "birth_year_select_1992", category: "DROPDOWN_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-32", label: "next_seats_extras", category: "BUTTON_ACTION", route: "flights-search-1", action: "click" },
+  { id: "ann-33", label: "address_autocomplete_input", category: "FORM_INPUT", route: "flights-search-1", action: "type", metadata: { text: "123 Main St" } },
+  { id: "ann-34", label: "address_autocomplete_select", category: "DROPDOWN_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-35", label: "next_seats_extras_2", category: "BUTTON_ACTION", route: "flights-search-1", action: "click" },
+  // Seat selection annotations
+  { id: "ann-36", label: "seat_select_1a", category: "SEAT_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-37", label: "next_flight_jfk_pbi", category: "BUTTON_ACTION", route: "flights-search-1", action: "click" },
+  { id: "ann-38", label: "seat_select_2e_disabled", category: "SEAT_SELECT", route: "flights-search-1", action: "click" },
+  { id: "ann-39", label: "next_select_extras", category: "BUTTON_ACTION", route: "flights-search-1", action: "click" },
 ];
 
 function getAnnotationElements() {
   return annotations.map(ann => {
     const el = document.querySelector(`[data-ann="${ann.id}"]`);
-    const bbox = el ? (() => {
-      const r = el.getBoundingClientRect();
-      return { x: r.x, y: r.y, width: r.width, height: r.height };
-    })() : { x: 0, y: 0, width: 0, height: 0 };
-    return { ...ann, bbox };
+    if (!el) {
+      return { ...ann, bbox: { x: 0, y: 0, width: 0, height: 0 }, interactive: false };
+    }
+    const r = el.getBoundingClientRect();
+    const bbox = { x: r.x, y: r.y, width: r.width, height: r.height };
+    const interactive = r.width > 0 && r.height > 0;
+    return { ...ann, bbox, interactive };
   });
 }
 

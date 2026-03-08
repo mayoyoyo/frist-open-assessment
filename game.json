@@ -1,0 +1,60 @@
+{
+  "name": "jetblue-v3",
+  "clone": {
+    "path": "jetblue-v3",
+    "devServer": {
+      "command": "bun run dev",
+      "port": 5173,
+      "readyPattern": "Local:"
+    }
+  },
+  "viewport": { "width": 1280, "height": 900 },
+  "observationSize": { "width": 640, "height": 480 },
+  "maxStepsPerEpisode": 20,
+  "tasks": [
+    {
+      "id": "search-to-results",
+      "prompt": "Search for a roundtrip flight from Seattle to New York and view the available flight options.",
+      "start": {
+        "pathname": "/",
+        "state": { "step": "search" }
+      },
+      "goal": { "step": { "equals": "results" } },
+      "difficulty": "easy",
+      "reward": { "shaping": "distance" }
+    },
+    {
+      "id": "select-flight-to-cart",
+      "prompt": "Select any available flight and choose a fare to proceed to the checkout cart.",
+      "start": {
+        "pathname": "/flights",
+        "state": { "step": "results" }
+      },
+      "goal": { "step": { "equals": "cart" } },
+      "difficulty": "medium",
+      "reward": { "shaping": "distance" }
+    },
+    {
+      "id": "cart-to-traveler",
+      "prompt": "You have selected a flight. Proceed through checkout to the traveler information form.",
+      "start": {
+        "pathname": "/checkout",
+        "state": { "step": "cart" }
+      },
+      "goal": { "step": { "equals": "traveler" } },
+      "difficulty": "medium",
+      "reward": { "shaping": "distance" }
+    },
+    {
+      "id": "traveler-to-seats",
+      "prompt": "Fill in the traveler information form with valid details and proceed to seat selection.",
+      "start": {
+        "pathname": "/info",
+        "state": { "step": "traveler" }
+      },
+      "goal": { "step": { "equals": "seats" } },
+      "difficulty": "hard",
+      "reward": { "shaping": "distance" }
+    }
+  ]
+}

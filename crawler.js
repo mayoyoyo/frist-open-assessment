@@ -117,6 +117,30 @@ async function performAction(page, annotation) {
   const cx = bbox.x + bbox.width / 2;
   const cy = bbox.y + bbox.height / 2;
 
+  // Scroll element into view if it's below the viewport
+  const viewport = page.viewportSize();
+  if (viewport && cy > viewport.height) {
+    await page.mouse.wheel(0, cy - viewport.height / 2);
+    await page.waitForTimeout(300);
+    // Re-query bbox after scroll since positions change
+    const updatedBbox = await page.evaluate((annId) => {
+      const el = document.querySelector(`[data-ann="${annId}"]`);
+      if (!el) return null;
+      const r = el.getBoundingClientRect();
+      return { x: r.x, y: r.y, width: r.width, height: r.height };
+    }, annotation.id);
+    if (updatedBbox) {
+      annotation = { ...annotation, bbox: updatedBbox };
+      const newCx = updatedBbox.x + updatedBbox.width / 2;
+      const newCy = updatedBbox.y + updatedBbox.height / 2;
+      return performActionAtCoords(page, action, metadata, newCx, newCy);
+    }
+  }
+
+  return performActionAtCoords(page, action, metadata, cx, cy);
+}
+
+async function performActionAtCoords(page, action, metadata, cx, cy) {
   switch (action) {
     case "click":
       await page.mouse.click(cx, cy);
