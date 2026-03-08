@@ -1,0 +1,1463 @@
+{
+  "config": {
+    "epochs": 50,
+    "group_size": 8,
+    "lr": 0.0003,
+    "clip_eps": 0.2,
+    "kl_beta": 0.01,
+    "entropy_coef": 0.05,
+    "ref_update_freq": 10
+  },
+  "epochs": [
+    {
+      "epoch": 1,
+      "mean_reward": 0.798125,
+      "success_rate": 0.78125,
+      "mean_steps": 10.8125,
+      "loss": 0.3213396966457367,
+      "policy_loss": 0.4311636686325073,
+      "kl": 0.0,
+      "entropy": 2.196479558944702,
+      "elapsed": 0.4587900638580322,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 0.8674999999999999,
+          "success_rate": 0.875
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9700000000000002,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.6275000000000001,
+          "success_rate": 0.625
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.7275,
+          "success_rate": 0.75
+        }
+      }
+    },
+    {
+      "epoch": 2,
+      "mean_reward": 0.7853125000000001,
+      "success_rate": 0.78125,
+      "mean_steps": 10.84375,
+      "loss": 0.3108888864517212,
+      "policy_loss": 0.4206571877002716,
+      "kl": 0.0019235452637076378,
+      "entropy": 2.1957507133483887,
+      "elapsed": 0.8823962211608887,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 0.9075,
+          "success_rate": 0.875
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.7750000000000001,
+          "success_rate": 0.75
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.44,
+          "success_rate": 0.5
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.01875,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 3,
+      "mean_reward": 0.8784375,
+      "success_rate": 0.84375,
+      "mean_steps": 9.34375,
+      "loss": 0.39723458886146545,
+      "policy_loss": 0.5069620609283447,
+      "kl": -0.004296259023249149,
+      "entropy": 2.1936898231506348,
+      "elapsed": 1.1964609622955322,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 0.88375,
+          "success_rate": 0.875
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9412499999999999,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.6462500000000001,
+          "success_rate": 0.625
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0425,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 4,
+      "mean_reward": 1.03375,
+      "success_rate": 0.96875,
+      "mean_steps": 8.1875,
+      "loss": 0.3916826844215393,
+      "policy_loss": 0.5012621283531189,
+      "kl": -0.02949628047645092,
+      "entropy": 2.1856889724731445,
+      "elapsed": 1.4756977558135986,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1325000000000003,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.9375000000000001,
+          "success_rate": 0.875
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.9937500000000001,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 5,
+      "mean_reward": 0.9959375,
+      "success_rate": 0.9375,
+      "mean_steps": 8.53125,
+      "loss": 0.3498484492301941,
+      "policy_loss": 0.45896872878074646,
+      "kl": -0.01899515651166439,
+      "entropy": 2.1786062717437744,
+      "elapsed": 1.7549519538879395,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.02625,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1025,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.7862500000000001,
+          "success_rate": 0.75
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.06875,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 6,
+      "mean_reward": 1.005625,
+      "success_rate": 0.9375,
+      "mean_steps": 7.5625,
+      "loss": 0.2892238199710846,
+      "policy_loss": 0.3977970778942108,
+      "kl": -0.04716838151216507,
+      "entropy": 2.162031650543213,
+      "elapsed": 2.015028953552246,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.05375,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9587500000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.9512500000000002,
+          "success_rate": 0.875
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0587499999999999,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 7,
+      "mean_reward": 1.0446875000000002,
+      "success_rate": 0.96875,
+      "mean_steps": 6.78125,
+      "loss": 0.5627466440200806,
+      "policy_loss": 0.6704760193824768,
+      "kl": -0.09030865132808685,
+      "entropy": 2.136525869369507,
+      "elapsed": 2.2480990886688232,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.02625,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9837500000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.11,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.05875,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 8,
+      "mean_reward": 0.999375,
+      "success_rate": 0.9375,
+      "mean_steps": 8.1875,
+      "loss": 0.46096447110176086,
+      "policy_loss": 0.566462516784668,
+      "kl": -0.07580190896987915,
+      "entropy": 2.0948009490966797,
+      "elapsed": 2.529147148132324,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 0.8662500000000001,
+          "success_rate": 0.875
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1362500000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 0.9575,
+          "success_rate": 0.875
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0375,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 9,
+      "mean_reward": 1.053125,
+      "success_rate": 0.96875,
+      "mean_steps": 6.25,
+      "loss": 0.5076199769973755,
+      "policy_loss": 0.6110793948173523,
+      "kl": -0.2430785745382309,
+      "entropy": 2.0205729007720947,
+      "elapsed": 2.7385599613189697,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 0.9012500000000001,
+          "success_rate": 0.875
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1225,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1325000000000003,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0562500000000001,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 10,
+      "mean_reward": 1.0940625000000002,
+      "success_rate": 1.0,
+      "mean_steps": 5.59375,
+      "loss": 0.31763961911201477,
+      "policy_loss": 0.4190206229686737,
+      "kl": -0.2370356321334839,
+      "entropy": 1.9802130460739136,
+      "elapsed": 2.9431538581848145,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07875,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1375000000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.08875,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.07125,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 11,
+      "mean_reward": 1.0471875000000002,
+      "success_rate": 0.96875,
+      "mean_steps": 6.53125,
+      "loss": 0.3780987858772278,
+      "policy_loss": 0.4762324392795563,
+      "kl": 0.0,
+      "entropy": 1.9626727104187012,
+      "elapsed": 3.1697499752044678,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.05875,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9475000000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.13125,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.05125,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 12,
+      "mean_reward": 1.0081250000000002,
+      "success_rate": 0.9375,
+      "mean_steps": 6.6875,
+      "loss": 0.6301736235618591,
+      "policy_loss": 0.7271236777305603,
+      "kl": -0.007341149263083935,
+      "entropy": 1.9375327825546265,
+      "elapsed": 3.4028420448303223,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.03125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.8112500000000001,
+          "success_rate": 0.75
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1387500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.05125,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 13,
+      "mean_reward": 1.09,
+      "success_rate": 1.0,
+      "mean_steps": 6.0,
+      "loss": 0.5292655229568481,
+      "policy_loss": 0.6210216879844666,
+      "kl": -0.03241145610809326,
+      "entropy": 1.8286405801773071,
+      "elapsed": 3.60520601272583,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07625,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1187500000000004,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1262500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.03875,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 14,
+      "mean_reward": 1.105,
+      "success_rate": 1.0,
+      "mean_steps": 4.5,
+      "loss": 0.6191762685775757,
+      "policy_loss": 0.7047526836395264,
+      "kl": -0.06829002499580383,
+      "entropy": 1.697869896888733,
+      "elapsed": 3.7562038898468018,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.06625,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1325,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1475000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.07375,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 15,
+      "mean_reward": 1.0953125000000001,
+      "success_rate": 1.0,
+      "mean_steps": 5.46875,
+      "loss": 0.5662943124771118,
+      "policy_loss": 0.6427591443061829,
+      "kl": -0.1853778064250946,
+      "entropy": 1.4922209978103638,
+      "elapsed": 3.9553799629211426,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0837500000000002,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1425,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.11125,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.04375,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 16,
+      "mean_reward": 1.0640625000000001,
+      "success_rate": 0.96875,
+      "mean_steps": 4.84375,
+      "loss": 0.5332591533660889,
+      "policy_loss": 0.6020665764808655,
+      "kl": -0.2683854103088379,
+      "entropy": 1.3224714994430542,
+      "elapsed": 4.120473146438599,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.075,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.97375,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1575000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0499999999999998,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 17,
+      "mean_reward": 1.1015625000000002,
+      "success_rate": 1.0,
+      "mean_steps": 4.84375,
+      "loss": 0.4257955253124237,
+      "policy_loss": 0.48953354358673096,
+      "kl": -0.355337917804718,
+      "entropy": 1.2036927938461304,
+      "elapsed": 4.2868311405181885,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0787499999999999,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1287500000000001,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1562500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0425,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 18,
+      "mean_reward": 1.09875,
+      "success_rate": 1.0,
+      "mean_steps": 5.125,
+      "loss": 0.5157363414764404,
+      "policy_loss": 0.5760123133659363,
+      "kl": -0.3568376302719116,
+      "entropy": 1.1341530084609985,
+      "elapsed": 4.471769094467163,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0662500000000001,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.11375,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1550000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.06,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 19,
+      "mean_reward": 1.10125,
+      "success_rate": 1.0,
+      "mean_steps": 4.875,
+      "loss": 0.6740803122520447,
+      "policy_loss": 0.7340422868728638,
+      "kl": -0.4757150411605835,
+      "entropy": 1.104095697402954,
+      "elapsed": 4.6361918449401855,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0825,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1187500000000001,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.165,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.03875,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 20,
+      "mean_reward": 1.074375,
+      "success_rate": 0.96875,
+      "mean_steps": 3.8125,
+      "loss": 0.6439615488052368,
+      "policy_loss": 0.704441249370575,
+      "kl": -0.4376589059829712,
+      "entropy": 1.1220624446868896,
+      "elapsed": 4.774068832397461,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0825,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9987500000000002,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1462500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.07,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 21,
+      "mean_reward": 1.07,
+      "success_rate": 0.96875,
+      "mean_steps": 4.5625,
+      "loss": 0.5435259342193604,
+      "policy_loss": 0.5999447703361511,
+      "kl": 0.0,
+      "entropy": 1.128376841545105,
+      "elapsed": 4.939866065979004,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9812500000000002,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1587500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.07,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 22,
+      "mean_reward": 1.0653125,
+      "success_rate": 0.96875,
+      "mean_steps": 4.71875,
+      "loss": 0.5512171983718872,
+      "policy_loss": 0.6073539853096008,
+      "kl": -0.008070112206041813,
+      "entropy": 1.121121883392334,
+      "elapsed": 5.104455232620239,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.96125,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1475,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.07125,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 23,
+      "mean_reward": 1.0984375000000002,
+      "success_rate": 1.0,
+      "mean_steps": 5.15625,
+      "loss": 0.507883608341217,
+      "policy_loss": 0.5636898875236511,
+      "kl": -0.0018022970762103796,
+      "entropy": 1.115765929222107,
+      "elapsed": 5.28236198425293,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.12,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1462500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0462500000000001,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 24,
+      "mean_reward": 0.9828125000000001,
+      "success_rate": 0.90625,
+      "mean_steps": 5.78125,
+      "loss": 0.4901265501976013,
+      "policy_loss": 0.5455312132835388,
+      "kl": -0.02808862179517746,
+      "entropy": 1.102475881576538,
+      "elapsed": 5.480823040008545,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.04625,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.6487500000000002,
+          "success_rate": 0.625
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.15625,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.08,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 25,
+      "mean_reward": 1.1062500000000002,
+      "success_rate": 1.0,
+      "mean_steps": 4.375,
+      "loss": 0.486559122800827,
+      "policy_loss": 0.5414841771125793,
+      "kl": -0.02034633979201317,
+      "entropy": 1.0944311618804932,
+      "elapsed": 5.62976598739624,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.06,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1437500000000003,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.16375,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0575,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 26,
+      "mean_reward": 1.10125,
+      "success_rate": 1.0,
+      "mean_steps": 4.875,
+      "loss": 0.6412737965583801,
+      "policy_loss": 0.6956182718276978,
+      "kl": -0.011931506916880608,
+      "entropy": 1.0845025777816772,
+      "elapsed": 5.799653053283691,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1287500000000001,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.15125,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.05375,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 27,
+      "mean_reward": 1.1040625,
+      "success_rate": 1.0,
+      "mean_steps": 4.59375,
+      "loss": 0.4142301678657532,
+      "policy_loss": 0.4684060513973236,
+      "kl": -0.02687198668718338,
+      "entropy": 1.0781428813934326,
+      "elapsed": 5.963076114654541,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1350000000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.14125,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.06,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 28,
+      "mean_reward": 1.1056250000000003,
+      "success_rate": 1.0,
+      "mean_steps": 4.4375,
+      "loss": 0.44697514176368713,
+      "policy_loss": 0.4998438060283661,
+      "kl": -0.03213654085993767,
+      "entropy": 1.0509461164474487,
+      "elapsed": 6.117254018783569,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07875,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1350000000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1425,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0662500000000001,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 29,
+      "mean_reward": 1.08875,
+      "success_rate": 1.0,
+      "mean_steps": 6.125,
+      "loss": 0.5393678545951843,
+      "policy_loss": 0.5909847617149353,
+      "kl": -0.08455848693847656,
+      "entropy": 1.0154258012771606,
+      "elapsed": 6.332251071929932,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0775000000000001,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.10375,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1300000000000001,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0437500000000002,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 30,
+      "mean_reward": 1.098125,
+      "success_rate": 1.0,
+      "mean_steps": 5.1875,
+      "loss": 0.525657057762146,
+      "policy_loss": 0.5778287649154663,
+      "kl": -0.12904556095600128,
+      "entropy": 1.017625331878662,
+      "elapsed": 6.513023853302002,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0875,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1325000000000003,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1225,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.05,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 31,
+      "mean_reward": 1.1087500000000001,
+      "success_rate": 1.0,
+      "mean_steps": 4.125,
+      "loss": 0.48300111293792725,
+      "policy_loss": 0.5356687903404236,
+      "kl": 0.0,
+      "entropy": 1.0533535480499268,
+      "elapsed": 6.656253814697266,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.13375,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.145,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0762500000000002,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 32,
+      "mean_reward": 1.0509374999999999,
+      "success_rate": 0.96875,
+      "mean_steps": 6.15625,
+      "loss": 0.4643331468105316,
+      "policy_loss": 0.5192837119102478,
+      "kl": -0.010847751051187515,
+      "entropy": 1.0968416929244995,
+      "elapsed": 6.874236106872559,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0625,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9450000000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.14375,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0525,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 33,
+      "mean_reward": 1.1065625000000001,
+      "success_rate": 1.0,
+      "mean_steps": 4.34375,
+      "loss": 0.4451291859149933,
+      "policy_loss": 0.5004685521125793,
+      "kl": 0.0022683485876768827,
+      "entropy": 1.1072416305541992,
+      "elapsed": 7.02568793296814,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1362500000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1487500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.06,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 34,
+      "mean_reward": 1.053125,
+      "success_rate": 0.96875,
+      "mean_steps": 5.9375,
+      "loss": 0.4753955602645874,
+      "policy_loss": 0.5307888388633728,
+      "kl": -0.05699040740728378,
+      "entropy": 1.0964678525924683,
+      "elapsed": 7.227895021438599,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0775000000000001,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9450000000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.15,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.04,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 35,
+      "mean_reward": 1.0253125,
+      "success_rate": 0.9375,
+      "mean_steps": 4.96875,
+      "loss": 0.5945361256599426,
+      "policy_loss": 0.6493837237358093,
+      "kl": -0.0629468560218811,
+      "entropy": 1.084362506866455,
+      "elapsed": 7.408604145050049,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07375,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.8162500000000001,
+          "success_rate": 0.75
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1425,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.06875,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 36,
+      "mean_reward": 0.9800000000000001,
+      "success_rate": 0.90625,
+      "mean_steps": 5.75,
+      "loss": 0.37158632278442383,
+      "policy_loss": 0.4263109564781189,
+      "kl": -0.29999783635139465,
+      "entropy": 1.03449285030365,
+      "elapsed": 7.6013100147247314,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0675,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.6112500000000001,
+          "success_rate": 0.625
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1662500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0750000000000002,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 37,
+      "mean_reward": 1.0703125,
+      "success_rate": 0.96875,
+      "mean_steps": 4.53125,
+      "loss": 0.6356236934661865,
+      "policy_loss": 0.6892330050468445,
+      "kl": -0.2480969876050949,
+      "entropy": 1.0225671529769897,
+      "elapsed": 7.757156133651733,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.07375,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9787500000000002,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1575000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.07125,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 38,
+      "mean_reward": 1.0653125,
+      "success_rate": 0.96875,
+      "mean_steps": 4.71875,
+      "loss": 0.5912892818450928,
+      "policy_loss": 0.6429315805435181,
+      "kl": -0.08558375388383865,
+      "entropy": 1.0157290697097778,
+      "elapsed": 7.9281439781188965,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0662500000000001,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9650000000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1575000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0725,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 39,
+      "mean_reward": 1.0209375,
+      "success_rate": 0.9375,
+      "mean_steps": 5.40625,
+      "loss": 0.4428149461746216,
+      "policy_loss": 0.4940336048603058,
+      "kl": -0.329405814409256,
+      "entropy": 0.9584919214248657,
+      "elapsed": 8.115303993225098,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.065,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.7837500000000002,
+          "success_rate": 0.75
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1675,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0675000000000001,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 40,
+      "mean_reward": 1.0175,
+      "success_rate": 0.9375,
+      "mean_steps": 6.0625,
+      "loss": 0.5770350098609924,
+      "policy_loss": 0.6254129409790039,
+      "kl": -0.4855322241783142,
+      "entropy": 0.8704518675804138,
+      "elapsed": 8.322068929672241,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0550000000000002,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9350000000000002,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1750000000000003,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.905,
+          "success_rate": 0.875
+        }
+      }
+    },
+    {
+      "epoch": 41,
+      "mean_reward": 1.056875,
+      "success_rate": 0.96875,
+      "mean_steps": 5.875,
+      "loss": 0.29714342951774597,
+      "policy_loss": 0.33849483728408813,
+      "kl": 0.0,
+      "entropy": 0.8270281553268433,
+      "elapsed": 8.527034997940063,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0787499999999999,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9387500000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1762500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0337500000000002,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 42,
+      "mean_reward": 1.011875,
+      "success_rate": 0.9375,
+      "mean_steps": 6.625,
+      "loss": 0.35535934567451477,
+      "policy_loss": 0.39733055233955383,
+      "kl": -0.014055403880774975,
+      "entropy": 0.8366131782531738,
+      "elapsed": 8.754348039627075,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0787499999999999,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9450000000000002,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1687500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.8550000000000001,
+          "success_rate": 0.875
+        }
+      }
+    },
+    {
+      "epoch": 43,
+      "mean_reward": 1.0659375,
+      "success_rate": 0.96875,
+      "mean_steps": 4.65625,
+      "loss": 0.641633152961731,
+      "policy_loss": 0.6868423223495483,
+      "kl": -0.017052428796887398,
+      "entropy": 0.9007728099822998,
+      "elapsed": 8.923371076583862,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0787499999999999,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.9737500000000001,
+          "success_rate": 0.875
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1675,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0437500000000002,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 44,
+      "mean_reward": 1.106875,
+      "success_rate": 1.0,
+      "mean_steps": 4.3125,
+      "loss": 0.5815010070800781,
+      "policy_loss": 0.631917417049408,
+      "kl": -0.1761070191860199,
+      "entropy": 0.9731068015098572,
+      "elapsed": 9.073750972747803,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0750000000000002,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1562500000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.165,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.03125,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 45,
+      "mean_reward": 1.1021875,
+      "success_rate": 1.0,
+      "mean_steps": 4.78125,
+      "loss": 0.46660012006759644,
+      "policy_loss": 0.5185434222221375,
+      "kl": -0.2201058566570282,
+      "entropy": 0.9948444962501526,
+      "elapsed": 9.240293979644775,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08375,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1425000000000003,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1575000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.0250000000000001,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 46,
+      "mean_reward": 1.0590625,
+      "success_rate": 0.96875,
+      "mean_steps": 5.65625,
+      "loss": 0.5276991128921509,
+      "policy_loss": 0.580065131187439,
+      "kl": -0.1694629043340683,
+      "entropy": 1.0134280920028687,
+      "elapsed": 9.439209938049316,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0875,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1062500000000002,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1562500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.88625,
+          "success_rate": 0.875
+        }
+      }
+    },
+    {
+      "epoch": 47,
+      "mean_reward": 1.063125,
+      "success_rate": 0.96875,
+      "mean_steps": 5.25,
+      "loss": 0.5538876056671143,
+      "policy_loss": 0.6081448197364807,
+      "kl": -0.17720146477222443,
+      "entropy": 1.049704909324646,
+      "elapsed": 9.620513916015625,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0825,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1300000000000001,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1587500000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.8812500000000001,
+          "success_rate": 0.875
+        }
+      }
+    },
+    {
+      "epoch": 48,
+      "mean_reward": 1.0646875,
+      "success_rate": 0.96875,
+      "mean_steps": 5.09375,
+      "loss": 0.6456576585769653,
+      "policy_loss": 0.7009245753288269,
+      "kl": -0.09824196994304657,
+      "entropy": 1.0856904983520508,
+      "elapsed": 9.796114921569824,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.0775000000000001,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.12125,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1612500000000003,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 0.89875,
+          "success_rate": 0.875
+        }
+      }
+    },
+    {
+      "epoch": 49,
+      "mean_reward": 1.1046875,
+      "success_rate": 1.0,
+      "mean_steps": 4.53125,
+      "loss": 0.5275431275367737,
+      "policy_loss": 0.585097074508667,
+      "kl": -0.13335223495960236,
+      "entropy": 1.1244080066680908,
+      "elapsed": 9.95940613746643,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08375,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 1.1125000000000003,
+          "success_rate": 1.0
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1675000000000002,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.055,
+          "success_rate": 1.0
+        }
+      }
+    },
+    {
+      "epoch": 50,
+      "mean_reward": 1.0184375,
+      "success_rate": 0.9375,
+      "mean_steps": 5.65625,
+      "loss": 0.4670647382736206,
+      "policy_loss": 0.5270033478736877,
+      "kl": -0.16677847504615784,
+      "entropy": 1.1654161214828491,
+      "elapsed": 10.151915073394775,
+      "per_task": {
+        "search-to-results": {
+          "mean_reward": 1.08125,
+          "success_rate": 1.0
+        },
+        "select-flight-to-cart": {
+          "mean_reward": 0.79,
+          "success_rate": 0.75
+        },
+        "cart-to-traveler": {
+          "mean_reward": 1.1525000000000003,
+          "success_rate": 1.0
+        },
+        "traveler-to-seats": {
+          "mean_reward": 1.05,
+          "success_rate": 1.0
+        }
+      }
+    }
+  ]
+}
